@@ -6,7 +6,6 @@ A video podcast host and RSS feed generator incorporating user feedback to autom
 
 cd vidcast
 dart bin/server.dart
-In any browser, visit localhost:4040
 
 ### Prerequisites
 
@@ -15,6 +14,13 @@ https://dart.dev/get-dart
 ```
  brew tap dart-lang/dart
  brew install dart
+```
+
+Get app dependencies:
+
+```
+cd vidcast
+pub get
 ```
 
 ## Authors
